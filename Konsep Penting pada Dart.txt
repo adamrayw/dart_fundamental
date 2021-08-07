@@ -1,0 +1,14 @@
+- Segala sesuatu yang dapat Anda tempatkan dalam variabel adalah objek, dan setiap objek adalah turunan dari kelas. 
+Angka genap, function, dan null adalah objek. Dengan pengecualian null (jika Anda mengaktifkan keamanan null suara), 
+semua objek mewarisi dari kelas Object.
+- Dart mendukung tipe generik, seperti List<int> (daftar bilangan bulat) atau List<Object> (daftar objek dari tipe apa pun).
+- Dart mendukung top-level functions (seperti main()), serta fungsi yang terkait dengan class atau object
+(metode static and instance).
+- Demikian pula, Dart menudukung variabel tingkat atas, serta variabel yang terkait dengan class or object
+(static and instancr variables) variables instance terkadang dikenal sebagai bidang atau properti.
+- Tidak seperti java, dart tidak memiliki keywords public, protected, private, jika identifier dimulai dengan garis bawah (_)
+- identifiers dapat dimulai dengan huruf atau garis bawah (_) diikuti dengan kombinasi karakter apa pun ditambah angka.
+- Dart memiliki expressions(yang memiliki nilai runtime) dan statements(which don't).
+misalnya kondisi expresi condition ? expr1 : expr2 memiliki nilai expr1 atau expr2.
+- Dart tool dapat melaporkan dua jenis masalah: warning dan errors. Warning hanyalah indikasi 
+bahwa kode Anda mungkin tidak berfungsi, tetapi tidak mencegah program Anda dijalankan.
